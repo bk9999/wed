@@ -1,0 +1,9 @@
+.wedding-bg{
+  background-image: url('{{URL::to('images/marriage2.jpg')}}');
+  height: 100%;
+  position: relative;
+  opacity: 0.65;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
