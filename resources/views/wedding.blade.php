@@ -26,10 +26,11 @@
 <!-- for Facebook -->
 <meta property="og:title" content="ANKIT WEDS PARUL-Congratulations on the start of something beautiful!" />
 <meta property="og:type" content="article" />
-<meta property="og:image" content="{{asset('images/heart.gif')}}" />
+<meta property="og:image" content="{{asset('images/headt2.png')}}" />
 <meta property="og:url" content="http://weddingboss.in/" />
 <meta property="og:description" content="You two are perfect together! Wishing you love and happiness on your special day!" />
-
+<meta property="og:image:width" content="400" /> 
+<meta property="og:image:height" content="300" />
 <!-- for Twitter -->
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:title" content="ANKIT WEDS PARUL-Congratulations on the start of something beautiful!" />
