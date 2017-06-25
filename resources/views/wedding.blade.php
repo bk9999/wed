@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
- <title>Wedding Boss</title>
+ <title>ANKIT WEDS PARUL-Congratulations on the start of something beautiful!</title>
  <meta charset="utf-8">
  <meta name="viewport" content="width=device-width, initial-scale=1">
  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -13,8 +13,31 @@
  <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
  <link href="https://fonts.googleapis.com/css?family=Spectral" rel="stylesheet">
 
- <link rel="shortcut icon" href="url('{{URL::to('images/heart.ico')}})" type="image/x-icon">
- <link rel="icon" href="url('{{URL::to('images/heart.ico')}}" type="image/x-icon">
+
+
+<!-- for Google -->
+<meta name="description" content="ANKIT WEDS PARUL-Congratulations on the start of something beautiful!" />
+<meta name="keywords" content="wedding,indian wedding,wedding wishes,ankit weds parul" />
+
+<meta name="author" content="" />
+<meta name="copyright" content="" />
+<meta name="application-name" content="" />
+
+<!-- for Facebook -->          
+<meta property="og:title" content="ANKIT WEDS PARUL-Congratulations on the start of something beautiful!" />
+<meta property="og:type" content="article" />
+<meta property="og:image" content="{{asset('images/heart.ico')}}" />
+<meta property="og:url" content="http://weddingboss.in/" />
+<meta property="og:description" content="You two are perfect together! Wishing you love and happiness on your special day!" />
+
+<!-- for Twitter -->          
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="ANKIT WEDS PARUL-Congratulations on the start of something beautiful!" />
+<meta name="twitter:description" content="You two are perfect together! Wishing you love and happiness on your special day!" />
+<meta name="twitter:image" content="{{asset('images/heart.ico')}}" />
+
+<link rel="SHORTCUT ICON" href="{{asset('images/heart.ico')}}" type="image/x-icon">
+<link rel="apple-touch-icon" href="{{URL::to('images/heart.ico')}}">
 
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css" rel="stylesheet">
 <style>
