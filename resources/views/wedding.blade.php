@@ -284,7 +284,7 @@ var x = setInterval(function() {
         days=0;
         hours=0;
         minutes=0;
-        seconds
+        seconds=0;
         window.location='/congratulations';
 
     }
