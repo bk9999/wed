@@ -17,3 +17,6 @@
 Route::get('/', function () {
     return view('wedding');
 });
+Route::get('congratulations',function(){
+	return view('congratulations');
+});

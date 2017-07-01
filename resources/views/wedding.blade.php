@@ -26,7 +26,7 @@
 <!-- for Facebook -->
 <meta property="og:title" content="ANKIT WEDS PARUL-Congratulations on the start of something beautiful!" />
 <meta property="og:type" content="article" />
-<meta property="og:image" content="{{asset('images/heart.gif')}}" />
+<meta property="og:image" content="{{asset('images/headt2.png')}}" />
 <meta property="og:url" content="http://weddingboss.in/" />
 <meta property="og:description" content="You two are perfect together! Wishing you love and happiness on your special day!" />
 
@@ -278,6 +278,16 @@ var x = setInterval(function() {
     var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
     var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
+    if (distance < 0) {
+        clearInterval(x);
+        days=0;
+        hours=0;
+        minutes=0;
+        seconds
+        window.location='/congratulations';
+
+    }
+
     // Output the result in an element with id="demo"
     $('#days').text(days);
     $('#hours').text(hours);
@@ -287,10 +297,6 @@ var x = setInterval(function() {
     // + minutes + "m " + seconds + "s ";
 
     // If the count down is over, write some text
-    if (distance < 0) {
-        clearInterval(x);
-        document.getElementById("demo").innerHTML = "EXPIRED";
-    }
 }, 1000);
 </script>
 </body>
